@@ -103,7 +103,7 @@ const members = [
     power: "Super Força",
     links: [
       { label: "Instagram", url: "https://www.instagram.com/mathbasalia?exln=MTVxbm5weW1pMTJlZQ==" },
-      { label: "GitHub", url: "https://github.com/LukasZ2K" }
+      { label: "GitHub", url: "https://github.com/matheus9990h" }
     ],
     style: {
       card: "border-emerald-300/20 bg-gradient-to-br from-emerald-400/10 via-lime-300/5 to-stone-300/5 hover:border-emerald-300/40 hover:shadow-emerald-500/10",
