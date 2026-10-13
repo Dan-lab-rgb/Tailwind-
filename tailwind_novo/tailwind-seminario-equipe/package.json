@@ -1,0 +1,15 @@
+{
+  "name": "seminario-tailwind-equipe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site do Seminário 02 - Frameworks Front-end, com Tailwind CSS como tecnologia principal.",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "serve": "http-server . -p 8080 -c-1"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "tailwindcss": "^4.1.10"
+  }
+}
