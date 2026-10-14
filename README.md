@@ -1,4 +1,4 @@
-# Tailwind CSS — Guia de Estudos
+# Equipe Tailwind CSS — Seminário 02
 
 <p align="center">
   <img src="https://img.shields.io/badge/Tailwind_CSS-Estudo-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
@@ -11,21 +11,23 @@
 </p>
 
 <p align="center">
-  <strong>Aprendendo a criar interfaces modernas, responsivas e organizadas com Tailwind CSS.</strong>
+   <strong>Um portfólio coletivo desenvolvido com Tailwind CSS, reunindo perfis, interesses e uma demonstração prática de interfaces
+  responsivas.</strong>
 </p>
 
 ---
 
 ## Sobre o projeto
 
-Este repositório foi criado como parte de um projeto de estudos do **SENAI Ribeirão Preto**, com o objetivo de conhecer e explorar os principais recursos do Tailwind CSS, um framework CSS que permite estilizar páginas utilizando classes utilitárias diretamente no HTML.
+ Este repositório reúne o projeto prático desenvolvido pela equipe para o Seminário 02 de Frameworks Front-end do SENAI Ribeirão Preto.
 
-Ao longo do projeto, serão apresentados conceitos fundamentais do framework, desde sua instalação e configuração inicial até a criação de layouts responsivos, utilização de classes utilitárias e desenvolvimento de uma demonstração prática.
+  A aplicação é um portfólio coletivo construído com Tailwind CSS. Cada integrante possui um card com identidade visual própria,
+  informações pessoais, recomendações e um perfil expandido. O site também inclui filtros de recomendações, quiz de afinidades, menu
+  responsivo e animações de entrada.
 
-O repositório também apresenta uma comparação com o Bootstrap, destacando as diferenças entre os frameworks, suas vantagens, limitações e possibilidades de utilização no desenvolvimento web.
-
-A proposta é reunir os conteúdos estudados em um só lugar, facilitando a consulta, a prática e o aprendizado dos integrantes do grupo.
-
+  O objetivo é demonstrar, na prática, como o Tailwind CSS pode ser usado para criar interfaces modernas, responsivas e personalizadas
+  usando classes utilitárias.
+  
 ## Objetivos
 
 - Compreender o funcionamento do Tailwind CSS.
@@ -35,6 +37,9 @@ A proposta é reunir os conteúdos estudados em um só lugar, facilitando a cons
 - Conhecer os recursos de padronização e organização do CSS.
 - Comparar o Tailwind CSS com o Bootstrap.
 - Aplicar os conhecimentos em um projeto prático.
+- Criar uma interface visualmente personalizada para cada integrante.
+- Aplicar responsividade usando os breakpoints do Tailwind CSS.
+- Desenvolver interações com JavaScript, como modal, filtros e quiz.
 
 ## Conteúdo programático
 
@@ -102,48 +107,44 @@ Nesse exemplo, as classes definem o arredondamento, a cor de fundo, o espaçamen
 
 Para experimentar o Tailwind CSS utilizando o ambiente de linha de comando, é necessário ter o Node.js e o npm instalados.
 
-### 1. Clonar o repositório
+## Como executar localmente
+
+  ### 1. Clonar o repositório
+
+  ```bash
+  git clone https://github.com/Dan-lab-rgb/Tailwind-.git
+  cd Tailwind-
+```
+
+  ### 2. Entrar na pasta da aplicação
 
 ```bash
-git clone https://github.com/Dan-lab-rgb/Tailwind-.git
+  cd tailwind_novo/tailwind-seminario-equipe
 ```
 
-### 2. Entrar na pasta do projeto
+  ### 3. Instalar as dependências
 
 ```bash
-cd Tailwind-
+  npm install
 ```
 
-### 3. Instalar o Tailwind CSS
-
-Caso queira criar um exemplo independente usando a versão atual do Tailwind CSS com CLI, execute:
-
+  ### 4. Gerar o CSS durante o desenvolvimento
 ```bash
-npm init -y
-npm install tailwindcss @tailwindcss/cli
+  npm run dev
 ```
 
-### 4. Criar o arquivo CSS de entrada
-
-Crie um arquivo chamado `src/input.css` com o seguinte conteúdo:
-
-```css
-@import "tailwindcss";
-```
-
-### 5. Gerar o CSS compilado
-
+  ### 5. Gerar a versão final do CSS
 ```bash
-npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+  npm run build
 ```
+
+  O arquivo compilado é gerado em dist/output.css.
 
 Depois, vincule o arquivo CSS gerado ao HTML:
 
 ```html
 <link href="./src/output.css" rel="stylesheet">
 ```
-
-> **Observação:** esses comandos apresentam uma configuração básica para um exemplo independente com Tailwind CSS v4. A estrutura e os comandos do projeto original podem variar conforme os arquivos e a versão utilizados pelo grupo.
 
 ## Layout e responsividade
 
