@@ -1,0 +1,191 @@
+/* ==================================================================
+   DECORAÇÕES COMPLEMENTARES DOS CARDS
+   ------------------------------------------------------------------
+   O layout, responsividade, espaçamento, tipografia, estados e a maior
+   parte das cores continuam em Tailwind. Este arquivo é pequeno e cuida
+   apenas de padrões difíceis de representar de forma legível no HTML.
+================================================================== */
+.member-card {
+  min-height: 31rem;
+}
+
+/* Daniel — ficha inspirada em Pokédex. */
+.pokedex-card {
+  border-color: rgba(248, 113, 113, .55);
+  background: linear-gradient(145deg, #dc2626 0 76%, #991b1b 76% 100%);
+  box-shadow: inset 0 0 0 3px rgba(255, 255, 255, .07), 0 24px 55px rgba(127, 29, 29, .25);
+}
+
+.pokeball-dot {
+  width: 2.15rem;
+  height: 2.15rem;
+  border-radius: 999px;
+  display: inline-block;
+  border: 3px solid #111827;
+  background: linear-gradient(#ef4444 0 44%, #111827 44% 56%, #fff 56% 100%);
+  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, .28);
+}
+
+/* Thávine — papelaria fofa, rosa e clara. */
+.kitty-card {
+  border-color: rgba(251, 207, 232, .65);
+  background:
+    radial-gradient(circle at 14% 18%, rgba(255, 255, 255, .55) 0 3px, transparent 4px),
+    radial-gradient(circle at 85% 75%, rgba(255, 255, 255, .35) 0 2px, transparent 3px),
+    linear-gradient(145deg, #f9a8d4, #f472b6 48%, #db2777);
+  box-shadow: 0 24px 55px rgba(219, 39, 119, .22);
+}
+
+/* Guilherme — palco verde/dourado com pauta musical discreta. */
+.trumpet-card {
+  border-color: rgba(253, 230, 138, .45);
+  background: linear-gradient(145deg, #14532d, #166534 55%, #064e3b);
+}
+
+.music-lines::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: .13;
+  background: repeating-linear-gradient(to bottom, transparent 0 22px, #fde68a 23px 24px);
+}
+
+/* Matheus — bloco/pixel. */
+.minecraft-card {
+  border-color: rgba(134, 239, 172, .42);
+  background: linear-gradient(#3f6212 0 18%, #365314 18% 25%, #44403c 25% 100%);
+}
+
+.pixel-grid::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: .10;
+  background-image: linear-gradient(90deg, #fff 1px, transparent 1px), linear-gradient(#fff 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.inventory-slot {
+  box-shadow: inset 2px 2px 0 rgba(255, 255, 255, .18), inset -2px -2px 0 rgba(0, 0, 0, .35);
+}
+
+/* Ruan — painel espacial. */
+.space-card {
+  border-color: rgba(251, 146, 60, .45);
+  background: radial-gradient(circle at 75% 20%, rgba(59, 130, 246, .30), transparent 28%), linear-gradient(145deg, #172554, #1e1b4b 52%, #0f172a);
+}
+
+.space-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: .5;
+  background-image: radial-gradient(#fff 1px, transparent 1px);
+  background-size: 31px 31px;
+}
+
+.space-orbit {
+  width: 6rem;
+  height: 6rem;
+  border: 1px solid rgba(253, 186, 116, .45);
+  border-radius: 999px;
+  transform: rotate(-25deg);
+}
+
+.space-orbit::after {
+  content: "";
+  position: absolute;
+  width: .65rem;
+  height: .65rem;
+  border-radius: 999px;
+  background: #fdba74;
+  left: .15rem;
+  top: 2rem;
+  box-shadow: 0 0 18px #fb923c;
+}
+
+/* Luiz — brasão medieval. */
+.medieval-card {
+  border-color: rgba(217, 119, 6, .38);
+  background: radial-gradient(circle at center, rgba(120, 53, 15, .32), transparent 55%), linear-gradient(145deg, #292524, #0c0a09 70%);
+  box-shadow: inset 0 0 0 2px rgba(245, 158, 11, .08), 0 24px 55px rgba(0, 0, 0, .35);
+}
+
+.medieval-corner {
+  color: rgba(252, 211, 77, .28);
+  font-size: 2rem;
+}
+
+/* Lucas — pista/checkered. */
+.racing-card {
+  border-color: rgba(248, 113, 113, .45);
+  background: linear-gradient(130deg, #111827 0 54%, #7f1d1d 54% 72%, #0c4a6e 72% 100%);
+}
+
+.checkered-card::after {
+  content: "";
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 16px;
+
+  opacity: 0.12;
+
+  background: conic-gradient(#fff 25%,
+      #000 0 50%,
+      #fff 0 75%,
+      #000 0);
+
+  background-size: 16px 16px;
+
+  pointer-events: none;
+}
+
+/* Diogo — mapa/aventura + tecnologia. */
+.explorer-card {
+  border-color: rgba(125, 211, 252, .38);
+  background: radial-gradient(circle at 18% 82%, rgba(245, 158, 11, .19), transparent 32%), linear-gradient(145deg, #0c4a6e, #1e293b 55%, #78350f);
+}
+
+.route-line {
+  background-image: radial-gradient(circle, rgba(253, 230, 138, .55) 1.5px, transparent 2px);
+  background-size: 22px 22px;
+  mask-image: linear-gradient(135deg, transparent 10%, #000 30% 70%, transparent 90%);
+}
+
+/* Lorena — editor + neon musical. */
+.code-card {
+  border-color: rgba(232, 121, 249, .38);
+  background: radial-gradient(circle at 90% 10%, rgba(34, 211, 238, .16), transparent 27%), linear-gradient(145deg, #18181b, #3b0764 62%, #111827);
+}
+
+.equalizer-bar {
+  width: .35rem;
+  border-radius: 999px 999px 0 0;
+  display: inline-block;
+  background: linear-gradient(#e879f9, #22d3ee);
+  box-shadow: 0 0 12px rgba(232, 121, 249, .4);
+}
+
+@media (max-width: 639px) {
+  .member-card {
+    min-height: auto;
+  }
+}
+
+/* Imagens temáticas são apenas “stickers” decorativos. */
+.decor-sticker {
+  pointer-events: none;
+  user-select: none;
+  object-fit: contain;
+}
+
+.image-pixelated {
+  image-rendering: pixelated;
+}
