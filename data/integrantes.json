@@ -1,0 +1,356 @@
+[
+  {
+    "slug": "daniel",
+    "name": "Daniel",
+    "themeName": "Pokémon · games",
+    "themeIcon": "⚡",
+    "photo": "./recursos/membros/daniel.jpg",
+    "motto": "Sabia que o sabiá sabia assobiar?",
+    "hobby": "Jogar",
+    "icons": [
+      "🖥️",
+      "🎸",
+      "🎮"
+    ],
+    "media": "Persona",
+    "music": "White Noise, Anirap",
+    "food": "Costela com mandioca.",
+    "fact": "Não gosto de Strogonoff.",
+    "tech": "Visual Code",
+    "power": "Teletransporte.",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Dan-lab-rgb"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://br.linkedin.com/in/daniel-rodrigues-303072366"
+      }
+    ],
+    "style": {
+      "card": "border-yellow-300/20 bg-gradient-to-br from-yellow-300/10 via-red-400/5 to-sky-400/10 hover:border-yellow-300/40 hover:shadow-yellow-500/10",
+      "accent": "text-yellow-200",
+      "badge": "border-yellow-300/20 bg-yellow-300/10 text-yellow-100",
+      "button": "bg-yellow-300 text-slate-950 hover:bg-yellow-200",
+      "ring": "ring-yellow-300/30",
+      "fallback": "from-yellow-300 via-red-400 to-sky-500"
+    }
+  },
+  {
+    "slug": "thavine",
+    "name": "Thávine Nardin",
+    "themeName": "Hello Kitty · delicado",
+    "themeIcon": "🎀",
+    "photo": "./recursos/membros/thavine.jpg",
+    "motto": "Vejo o que falta, mesmo quando todos veem o que sobra.",
+    "hobby": "Dançar, principalmente dança contemporânea",
+    "icons": [
+      "🩰",
+      "💭",
+      "🪭"
+    ],
+    "media": "Harry Potter e o Cálice de Fogo",
+    "music": "Me and Your Mama · Michael Jackson",
+    "food": "Pizza",
+    "fact": "Já fui e-girl e meu joelho esquerdo já deslocou duas vezes.",
+    "tech": "HTML e CSS",
+    "power": "Teletransporte",
+    "links": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/thv.gabrielli/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/thavinegabrielli?tab=repositories"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/th%C3%A1vine-nardin-2378443b3/?isSelfProfile=true"
+      }
+    ],
+    "style": {
+      "card": "border-pink-300/20 bg-gradient-to-br from-pink-300/10 via-rose-300/5 to-white/5 hover:border-pink-300/40 hover:shadow-pink-500/10",
+      "accent": "text-pink-200",
+      "badge": "border-pink-300/20 bg-pink-300/10 text-pink-100",
+      "button": "bg-pink-200 text-rose-950 hover:bg-pink-100",
+      "ring": "ring-pink-300/30",
+      "fallback": "from-pink-200 via-rose-300 to-fuchsia-400"
+    }
+  },
+  {
+    "slug": "guilherme",
+    "name": "Guilherme Bobato",
+    "themeName": "Trompete · futebol",
+    "themeIcon": "🎺",
+    "photo": "./recursos/membros/guilherme.jpg",
+    "motto": "100% Jesus",
+    "hobby": "Jogar e assistir futebol",
+    "icons": [
+      "🎺",
+      "⚽",
+      "🎮"
+    ],
+    "media": "Minecraft",
+    "music": "Eu sou Blindado",
+    "food": "Parmegiana",
+    "fact": "Sou tocador de trompete e gosto muito de futebol também.",
+    "tech": "Front-End",
+    "power": "Teletransporte",
+    "links": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/guilherme_bobato/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/guilhermebobato2007-boop?tab=repositories"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/guilhermebobato-ads"
+      }
+    ],
+    "style": {
+      "card": "border-amber-300/20 bg-gradient-to-br from-amber-300/10 via-orange-400/5 to-yellow-200/5 hover:border-amber-300/40 hover:shadow-amber-500/10",
+      "accent": "text-amber-200",
+      "badge": "border-amber-300/20 bg-amber-300/10 text-amber-100",
+      "button": "bg-amber-300 text-slate-950 hover:bg-amber-200",
+      "ring": "ring-amber-300/30",
+      "fallback": "from-amber-300 via-orange-400 to-yellow-500"
+    }
+  },
+  {
+    "slug": "matheus",
+    "name": "Matheus Basalia",
+    "themeName": "Minecraft · anime",
+    "themeIcon": "⛏️",
+    "photo": "./recursos/membros/matheus.jpg",
+    "motto": "Existem limites para o que um jogador solo pode fazer.",
+    "hobby": "Jogar e assistir animes",
+    "icons": [
+      "🍦",
+      "🎮",
+      "🇯🇵"
+    ],
+    "media": "Sword Art Online",
+    "music": "Mentes Tão bem · Zeze de camargo e Luciano",
+    "food": "Strogonoff",
+    "fact": "Gosto de Minecraft.",
+    "tech": "MySQL / Python",
+    "power": "Super Força",
+    "links": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/mathbasalia?exln=MTVxbm5weW1pMTJlZQ=="
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/matheus9990h"
+      }
+    ],
+    "style": {
+      "card": "border-emerald-300/20 bg-gradient-to-br from-emerald-400/10 via-lime-300/5 to-stone-300/5 hover:border-emerald-300/40 hover:shadow-emerald-500/10",
+      "accent": "text-emerald-200",
+      "badge": "border-emerald-300/20 bg-emerald-300/10 text-emerald-100",
+      "button": "bg-emerald-300 text-emerald-950 hover:bg-emerald-200",
+      "ring": "ring-emerald-300/30",
+      "fallback": "from-emerald-400 via-lime-400 to-stone-500"
+    }
+  },
+  {
+    "slug": "ruan",
+    "name": "Ruan Marcelo",
+    "themeName": "Interestelar · .NET",
+    "themeIcon": "🪐",
+    "photo": "./recursos/membros/ruan.jpg",
+    "motto": "Apesar do coração, ainda tô vivo.",
+    "hobby": "Folhear Reels do Instagram",
+    "icons": [
+      "💻",
+      "⚽",
+      "🍔"
+    ],
+    "media": "Interestelar",
+    "music": "Melhor de mim · Sotam",
+    "food": "Pizza",
+    "fact": "Gosto de animais.",
+    "tech": ".NET",
+    "power": "Super velocidade",
+    "links": [
+      {
+        "label": "Site",
+        "url": "https://zruanzito.com.br"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ruan-marcelo"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ruan-marcelo/"
+      }
+    ],
+    "style": {
+      "card": "border-violet-300/20 bg-gradient-to-br from-violet-400/10 via-indigo-500/5 to-cyan-300/5 hover:border-violet-300/40 hover:shadow-violet-500/10",
+      "accent": "text-violet-200",
+      "badge": "border-violet-300/20 bg-violet-300/10 text-violet-100",
+      "button": "bg-violet-300 text-violet-950 hover:bg-violet-200",
+      "ring": "ring-violet-300/30",
+      "fallback": "from-violet-500 via-indigo-600 to-slate-900"
+    }
+  },
+  {
+    "slug": "luiz",
+    "name": "Luiz Augusto",
+    "themeName": "Medieval · competitivo",
+    "themeIcon": "♛",
+    "photo": "./recursos/membros/luiz.jpg",
+    "motto": "A esperança é o sonho do homem acordado.",
+    "hobby": "Folhear vídeos no TikTok e jogar",
+    "icons": [
+      "🎵",
+      "🎮",
+      "📽️"
+    ],
+    "media": "Game of Thrones",
+    "music": "Drake · Jaded",
+    "food": "Pizza",
+    "fact": "Extremamente competitivo.",
+    "tech": ".NET / C#",
+    "power": "Teletransporte",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Luiz-aoms"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/luiz-okada-841655310/?isSelfProfile=true"
+      }
+    ],
+    "style": {
+      "card": "border-orange-200/20 bg-gradient-to-br from-orange-300/10 via-slate-600/5 to-amber-300/5 hover:border-orange-200/40 hover:shadow-orange-500/10",
+      "accent": "text-orange-200",
+      "badge": "border-orange-200/20 bg-orange-200/10 text-orange-100",
+      "button": "bg-orange-200 text-slate-950 hover:bg-orange-100",
+      "ring": "ring-orange-200/30",
+      "fallback": "from-orange-300 via-slate-600 to-slate-950"
+    }
+  },
+  {
+    "slug": "lucas",
+    "name": "Lucas Borges",
+    "themeName": "Fórmula 1 · velocidade",
+    "themeIcon": "🏎️",
+    "photo": "./recursos/membros/lucas.jpg",
+    "motto": "Com tempo e esperança, tudo se alcança",
+    "hobby": "Assistir à Fórmula 1",
+    "icons": [
+      "⚽",
+      "🏎️",
+      "🎥"
+    ],
+    "media": "Reacher",
+    "music": "Bloco dos apaixonados · Sotam",
+    "food": "Pizza",
+    "fact": "Gosto de cozinhar.",
+    "tech": "HTML / CSS",
+    "power": "Voar",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/LukasZ2K"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/lucas-borges-silva-2k8/"
+      }
+    ],
+    "style": {
+      "card": "border-red-300/20 bg-gradient-to-br from-red-400/10 via-slate-500/5 to-sky-400/5 hover:border-red-300/40 hover:shadow-red-500/10",
+      "accent": "text-red-200",
+      "badge": "border-red-300/20 bg-red-300/10 text-red-100",
+      "button": "bg-red-300 text-red-950 hover:bg-red-200",
+      "ring": "ring-red-300/30",
+      "fallback": "from-red-500 via-slate-700 to-sky-500"
+    }
+  },
+  {
+    "slug": "diogo",
+    "name": "Diogo Cazarotte",
+    "themeName": "Aventura · hardware",
+    "themeIcon": "🧭",
+    "photo": "./recursos/membros/diogo.jpg",
+    "motto": "Não tentes ser bem-sucedido, tenta antes, ser um homem de valor.",
+    "hobby": "Futebol",
+    "icons": [
+      "🏍️",
+      "⚽",
+      "🎵"
+    ],
+    "media": "Uncharted 4",
+    "music": "Remember the Time · Michael Jackson",
+    "food": "Pizza",
+    "fact": "Adoro montar computadores.",
+    "tech": "C#",
+    "power": "Manipulação de Matéria",
+    "links": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/diogo_cazarotte/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/DiogoCazarotte"
+      }
+    ],
+    "style": {
+      "card": "border-sky-300/20 bg-gradient-to-br from-sky-400/10 via-amber-300/5 to-orange-400/5 hover:border-sky-300/40 hover:shadow-sky-500/10",
+      "accent": "text-sky-200",
+      "badge": "border-sky-300/20 bg-sky-300/10 text-sky-100",
+      "button": "bg-sky-300 text-sky-950 hover:bg-sky-200",
+      "ring": "ring-sky-300/30",
+      "fallback": "from-sky-500 via-amber-400 to-orange-500"
+    }
+  },
+  {
+    "slug": "lorena",
+    "name": "Lorena Lodi",
+    "themeName": "Lifestyle · viagem",
+    "themeIcon": "🛍️",
+    "photo": "./recursos/membros/lorena.jpg",
+    "motto": "o único jeito de aprender é vivendo…",
+    "hobby": "Fazer compras, jogar vôlei e viajar",
+    "icons": [
+      "🏐",
+      "🏖️",
+      "🛍️"
+    ],
+    "media": "The Vampire Diaries",
+    "music": "7 rings · Ariana Grande",
+    "food": "Strogonoff de frango",
+    "fact": "Já fez balé, hip hop e quase entrou para a ginástica.",
+    "tech": "HTML e CSS",
+    "power": "Velocidade",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/lorena-lodi"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "http://www.linkedin.com/in/lorena-lodi-3412493b6"
+      }
+    ],
+    "style": {
+      "card": "border-fuchsia-300/20 bg-gradient-to-br from-fuchsia-400/10 via-rose-400/5 to-cyan-300/5 hover:border-fuchsia-300/40 hover:shadow-fuchsia-500/10",
+      "accent": "text-fuchsia-200",
+      "badge": "border-fuchsia-300/20 bg-fuchsia-300/10 text-fuchsia-100",
+      "button": "bg-fuchsia-300 text-fuchsia-950 hover:bg-fuchsia-200",
+      "ring": "ring-fuchsia-300/30",
+      "fallback": "from-fuchsia-500 via-rose-500 to-cyan-500"
+    }
+  }
+]
