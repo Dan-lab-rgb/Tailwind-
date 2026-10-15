@@ -1,6 +1,0 @@
-/* Tailwind CSS v4 — o visual do projeto é construído com classes utilitárias. */
-@import "tailwindcss";
-
-/* Fontes de conteúdo analisadas pelo compilador. */
-@source "../index.html";
-@source "./app.js";
