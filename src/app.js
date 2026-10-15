@@ -87,7 +87,7 @@ const members = [
     }
   },
   {
-    slug: "matheus",
+      slug: "matheus",
     name: "Matheus Basalia",
     themeName: "Minecraft · anime",
     themeIcon: "⛏️",

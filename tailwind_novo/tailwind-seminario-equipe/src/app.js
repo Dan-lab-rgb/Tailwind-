@@ -87,7 +87,7 @@ const members = [
     }
   },
   {
-    slug: "matheus",
+      slug: "matheus",
     name: "Matheus Basalia",
     themeName: "Minecraft · anime",
     themeIcon: "⛏️",
@@ -96,10 +96,10 @@ const members = [
     hobby: "Jogar e assistir animes",
     icons: ["🍦", "🎮", "🇯🇵"],
     media: "Sword Art Online",
-    music: "Murder in My Mind · Michael Jackson",
-    food: "Macarrão",
+    music: "Mentes Tão bem · Zeze de camargo e Luciano",
+    food: "Strogonoff",
     fact: "Gosto de Minecraft.",
-    tech: "HTML / CSS",
+    tech: "MySQL / Python",
     power: "Super Força",
     links: [
       { label: "Instagram", url: "https://www.instagram.com/mathbasalia?exln=MTVxbm5weW1pMTJlZQ==" },
@@ -242,7 +242,10 @@ const members = [
     fact: "Já fez balé, hip hop e quase entrou para a ginástica.",
     tech: "HTML e CSS",
     power: "Velocidade",
-    links: [],
+    links: [
+      { label: "GitHub", url: "https://github.com/lorena-lodi" },
+      { label: "LinkedIn", url: "http://www.linkedin.com/in/lorena-lodi-3412493b6" }
+    ],
     style: {
       card: "border-fuchsia-300/20 bg-gradient-to-br from-fuchsia-400/10 via-rose-400/5 to-cyan-300/5 hover:border-fuchsia-300/40 hover:shadow-fuchsia-500/10",
       accent: "text-fuchsia-200",
