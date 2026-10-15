@@ -17,6 +17,9 @@
 
 ---
 
+https://dan-lab-rgb.github.io/Tailwind-
+
+
 ## Sobre o projeto
 
  Este repositório reúne o projeto prático desenvolvido pela equipe para o Seminário 02 de Frameworks Front-end do SENAI Ribeirão Preto.
