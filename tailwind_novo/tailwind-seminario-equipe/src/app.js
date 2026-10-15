@@ -229,22 +229,20 @@ const members = [
   },
   {
     slug: "lorena",
-    name: "Lorena",
-    themeName: "Código · rock",
-    themeIcon: "⌨️",
+    name: "Lorena Lodi",
+    themeName: "Lifestyle · viagem",
+    themeIcon: "🛍️",
     photo: "./assets/members/lorena.jpg",
-    motto: "Seja forte, seja você.",
-    hobby: "Programar e ensinar",
-    icons: ["🏫", "💻", "🎵"],
-    media: "Stranger Things",
-    music: "Numb (Linkin Park) · Billie Eilish",
-    food: "Frango",
-    fact: "Gosta de Rock.",
-    tech: "HTML / CSS",
+    motto: "o único jeito de aprender é vivendo…",
+    hobby: "Fazer compras, jogar vôlei e viajar",
+    icons: ["🏐", "🏖️", "🛍️"],
+    media: "The Vampire Diaries",
+    music: "7 rings · Ariana Grande",
+    food: "Strogonoff de frango",
+    fact: "Já fez balé, hip hop e quase entrou para a ginástica.",
+    tech: "HTML e CSS",
     power: "Velocidade",
-    links: [{ label: "GitHub", url: "https://github.com/lorena-lodi" },
-    { label: "LinkedIn", url: "http://www.linkedin.com/in/lorena-lodi-3412493b6" }
-    ],
+    links: [],
     style: {
       card: "border-fuchsia-300/20 bg-gradient-to-br from-fuchsia-400/10 via-rose-400/5 to-cyan-300/5 hover:border-fuchsia-300/40 hover:shadow-fuchsia-500/10",
       accent: "text-fuchsia-200",
@@ -253,8 +251,7 @@ const members = [
       ring: "ring-fuchsia-300/30",
       fallback: "from-fuchsia-500 via-rose-500 to-cyan-500"
     }
-  }
-];
+  }];
 
 function photoBlock(member, sizeClasses = "h-20 w-20", extra = "") {
   return `
